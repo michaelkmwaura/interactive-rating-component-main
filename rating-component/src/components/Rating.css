@@ -1,0 +1,112 @@
+#icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: hsl(216, 26%, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #maindiv h1{
+    padding: 40px 0 20px 0;
+    font-weight: 700;
+  }
+  
+  #maindiv p{
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  #submit{
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: "Overpass", sans-serif;
+    border: none;
+    transition: 0.3s;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  
+  #submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+  
+  #submit:active{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+  
+  #submit::after{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+  
+  #afterDiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #afterDiv img{
+    max-width: 100%;
+  }
+  
+  
+  #form .btn{
+    height: 3rem;
+    width: 3rem;
+    background-color: hsl(216, 26%, 25%);
+    border: none;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    transition: 0.3s;
+    font-weight: 600;
+    font-family: inherit;
+    cursor:  pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formdiv{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+  }
+
+  #form .btnActive{
+    height: 3rem;
+    width: 3rem;
+    background-color: hsl(217, 12%, 63%);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+    font-weight: 600;
+    font-family: inherit;
+    cursor:  pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #form .btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+
+  #form .btn:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+  }
+  
+  

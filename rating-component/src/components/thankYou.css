@@ -1,0 +1,28 @@
+#afterDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#afterDiv img{
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+#insideDiv{
+    background-color: hsl(216, 26%, 25%);
+    color: hsl(25, 97%, 53%);
+    margin-bottom: 2rem;
+    padding: 2px 20px 2px 20px;
+    border-radius: 50px;
+}
+
+#afterDiv h1{
+    margin-bottom: 1rem;
+}
+
+#afterDiv p{
+    color: hsl(217, 12%, 63%);
+}

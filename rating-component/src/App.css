@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Outfit:wght@500&family=Overpass&display=swap');
+
+body{
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
