@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Card>
-      {ThankYouPage ? (<ThankYou rating={rating} />) : (<Rating rating={rating} setRating={setRating} setThankYouPage={setThankYouPage} />)}
+      {ThankYouPage ? (<ThankYou rating={rating} />) : (<Rating rating={rating} setRating={setRating} setThankYouPage={setThankYouPage}/>)}
     </Card>
     </>
   );

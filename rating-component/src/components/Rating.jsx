@@ -3,7 +3,7 @@ import icon from './images/icon-star.svg'
 import {useState} from "react"
 
 
-const Rating = ({ rating, setRating, setThankYouPage }) => {
+const Rating = ({ rating, setRating, setThankYouPage, }) => {
     const [activeRating, setactiveRating] = useState({
         oneStar: false,
         twoStars: false,
@@ -36,7 +36,7 @@ const Rating = ({ rating, setRating, setThankYouPage }) => {
                     fourStars: false,
                     fiveStars: false,
                 }); 
-                setRating(1)
+                setRating(1);
             }} className={activeRating.oneStar ? "btnActive" : "btn"}>1</div>
             
             <div onClick={()=>{
@@ -47,7 +47,7 @@ const Rating = ({ rating, setRating, setThankYouPage }) => {
                     fourStars: false,
                     fiveStars: false,
                 });
-                setRating(2)
+                setRating(2);
             }} className={activeRating.twoStars ? "btnActive" : "btn"} >2</div>
             
             <div onClick={()=>{
@@ -58,7 +58,7 @@ const Rating = ({ rating, setRating, setThankYouPage }) => {
                     fourStars: false,
                     fiveStars: false,
                 });
-                setRating(3)
+                setRating(3);
             }} className={activeRating.threeStars ? "btnActive" : "btn"} >3</div>
             
             <div onClick={()=>{
@@ -68,7 +68,7 @@ const Rating = ({ rating, setRating, setThankYouPage }) => {
                     threeStars: false,
                     fourStars: true,
                     fiveStars: false,
-                }); setRating(4)
+                }); setRating(4);
             }} className={activeRating.fourStars ? "btnActive" : "btn"} >4</div>
             
             <div onClick={()=>{
